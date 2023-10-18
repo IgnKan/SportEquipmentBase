@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+/*Стили шапки*/
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    font-size: 48px;
+    font-family: 'Staatliches';
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu {
+    height: 70px;
+    background-color: #DCDCDF;
+}
+
+.left-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 65px;
+}
+
+.left-menu li {
+    text-align: center;
+    float: left;
+    width: 15%;
+}
+
+.left-menu li a {
+    font-weight: bold;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(47, 48, 53);
+}
+
+.right-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 65px;
+}
+
+.right-menu li {
+    text-align: center;
+    float: right;
+    width: 5%;
+}
+
+.right-menu li a {
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(47, 48, 53);
+}
+/*Конец стили шапки*/
+
+/* Начало Страница Мероприятия */
+.basePartSportEquipmentPage {
+    /* height: 1061px; */
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Начало Колонка с фильтрами*/
+
+.leftColumnFilters {
+    box-shadow: 2px 5px 5px -3px #848484;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    height: 790px;
+    width: 25%;
+}
+
+.filterPanel {
+    height: 80%;
+}
+
+.filtersLabel {
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 40px;
+    text-decoration-skip-ink: none;
+    font-size: 36px;
+    text-align: center;
+    font-weight: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(28, 98, 205);
+    margin-bottom: 100px;
+}
+
+.typeEquipmentBox {
+    height: 120px;
+}
+
+.labelTypeEquipmentBox {
+    padding-bottom: 10px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+
+.fieldTypeEquipmentBox {
+    font-family: 'PT Sans', sans-serif;
+    margin-right: 15px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.fieldTypeEquipmentBox select {
+    padding-left: 10px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(0, 0, 0, 50%);
+    overflow: auto;
+    font-size: 24px;
+    text-align: left;
+    height: 60px;
+    width: 102%;
+    background-color: rgb(0, 0, 0, 5%);
+    border: none;
+}
+
+.fieldTypeEquipmentBox option{
+    overflow: auto;
+}
+
+.startDataBox {
+    margin-top: 50px;
+    height: 120px;
+}
+
+.labelStartDataBox {
+    padding-bottom: 10px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+
+.fieldStartDataBox {
+    margin-right: 15px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.fieldStartDataBox input {
+    padding-left: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 5%);
+    border: none;
+    color: rgb(0, 0, 0, 50%);
+}
+
+.endDataBox {
+    height: 120px;
+}
+
+.labelEndDataBox {
+    padding-bottom: 10px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+
+.fieldEndDataBox {
+    margin-right: 15px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.fieldEndDataBox input {
+    padding-left: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 5%);
+    border: none;
+    color: rgb(0, 0, 0, 50%);
+}
+
+.buttonFind {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 80px;
+    height: 80px;
+    background-color: rgb(28, 98, 205);
+}
+
+.buttonFind .findButton {
+    background-color: rgb(28, 98, 205);
+    border: none;
+    font-size: 26px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.buttonFind :hover {
+    background-color: rgb(16, 54, 111);
+    transition: 0.7s;
+}
+/* Конец Колонка с фильтрами*/
+
+.centreColumnContent {
+    margin-top: 50px;
+    margin-left: 25px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    /* height: 1400px; */
+    width: 72%;
+}
+
+.events {
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr 0fr 0fr 0fr;
+    /* grid-template-rows: repeat(2, 1fr); */
+    width: 100%;
+    height: 90%;
+    max-width: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    /* Размещаем карточку по центру */
+    /* Отступ между колонками */
+    row-gap: 40px;
+    /* Отступ между рядами */
+    margin: 0 auto;
+}
+
+.eventWrapper{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: 0fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    max-width: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    /* Размещаем карточку по центру */
+    /* column-gap: 30px; */
+    /* Отступ между колонками */
+     row-gap: 3px;
+    /* Отступ между рядами */
+    margin: 0 auto;
+
+    align-content: center;
+    align-items: center;
+}
+
+.eventImg {
+    display: flex;
+    height: 285px;
+    background-size: cover;
+    background-position: center;
+}
+
+.eventInfoWrapper {
+    flex-direction: column;
+    display: grid;
+    grid-template-rows: repeat(5, 0fr);
+    row-gap: 15px;
+    margin: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.eventName {
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    height: 20%;
+    width: 100%;
+}
+
+.eventDescription {
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.eventEquipment {
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    height: 20%;
+    width: 100%;
+}
+
+.eventDate {
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    height: 20%;
+    width: 100%;
+}
+
+.eventPrice {
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(28, 98, 205);
+    font-size: 30px;
+    text-align: center;
+    height: 20%;
+    width: 100%;
+}
+
+.paginationBar {
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.4s;
+}
+
+ul.pagination li a.active-page {
+    background-color: rgb(28, 98, 205);
+    color: rgb(255, 255, 255);
+}
+
+ul.pagination li a:hover:not(a.active-page) {
+    background-color: rgb(203, 203, 203);
+}
+
+/* Начало стили Футтер */
+.footer {
+    background-color: #DCDCDF;
+}
+
+.contacts {
+    margin-top:50px;
+    float: left;
+    height: 200px;
+    width: 50%;
+    background-color: #DCDCDF;
+}
+
+
+.contacts p {
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    float: right;
+    height: 200px;
+    width: 50%;
+}
+
+.developers {
+    margin-top:50px;
+    float: right;
+    height: 200px;
+    width: 50%;
+    background-color: #DCDCDF;
+}
+
+.developers p {
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    float: right;
+    height: 200px;
+    width: 50%;
+}
+/* Конец стили Футтер */

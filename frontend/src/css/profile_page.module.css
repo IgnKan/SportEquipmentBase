@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+.body{
+    height: 1600px;
+}
+
+/*Стили шапки*/
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    font-size: 48px;
+    font-family: 'Staatliches';
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu {
+    height: 70px;
+    background-color: #DCDCDF;
+}
+
+.left-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 65px;
+}
+
+.left-menu li {
+    text-align: center;
+    float: left;
+    width: 15%;
+}
+
+.left-menu li a {
+    font-weight: bold;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(47, 48, 53);
+}
+
+.right-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 65px;
+}
+
+.right-menu li {
+    text-align: center;
+    float: right;
+    width: 5%;
+}
+
+.right-menu li a {
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(47, 48, 53);
+}
+/*Конец стили шапки*/
+
+/* Начало Страница Спортивного инвентаря */
+.basePartSportEquipmentPage {
+    height: 1400px;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.centreColumnContent {
+    margin-top: 50px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    height: 1061px;
+    width: 100%;
+}
+
+.profileWrapper {
+    display: grid;
+    margin-top: 50px;
+    /* height: 1600px; */
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr 0.3fr 0fr 0fr;
+    /* grid-template-rows: repeat(2, 1fr); */
+    width: 100%;
+    max-width: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    /* Размещаем карточку по центру */
+    /* Отступ между колонками */
+    row-gap: 40px;
+    /* Отступ между рядами */
+}
+
+.informationAboutUserLable{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.informationAboutUserWrapper{
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0fr 0fr;
+    /* grid-template-rows: repeat(2, 1fr); */
+    width: 25%;
+    max-width: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    /* Размещаем карточку по центру */
+    column-gap: 8px;
+    row-gap: 30px;
+    /* Отступ между рядами */
+    margin: 0 auto;
+
+    align-items: center;
+    align-content: center;
+}
+
+.fullNameUserLable{
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.fullNameUser{
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.emailUserLable{
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.emailUser{
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.informationAboutOrdersWrapper{
+    /* height: 780px; */
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr 0fr 0fr 0fr;
+    /* grid-template-rows: repeat(2, 1fr); */
+    width: 100%;
+    max-width: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    /* Размещаем карточку по центру */
+    column-gap: 8px;
+    /* Отступ между рядами */
+    margin: 0 auto;
+}
+
+.informationAboutOrdersLable{
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.tableWrapper{
+    overflow: auto;
+    overflow-x: hidden;
+    height: 90%;
+    width: 80%;
+    max-width: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    /* Размещаем карточку по центру */
+    /* Отступ между рядами */
+    margin: 0 auto;
+}
+
+.orderNumberCell{
+    border: 1px solid;
+    border-width: 1px;
+    border-right: 1px solid rgb(205, 205, 205);
+}
+
+.columnLables{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    height: 100%;
+    display: grid;
+    border: 1px solid;
+    border-width: 1px;
+    border-right: 1px solid rgb(205, 205, 205);
+    border-color: rgb(205, 205, 205);
+    background-color: rgb(0, 0, 0, 5%);
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(8, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    width: 80%;
+    max-width: 100%;
+    /* Ширина grid-контейнера */
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    /* Размещаем карточку по центру */
+    /* Отступ между рядами */
+    margin: 0 auto;
+}
+
+.orderNumberLable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.orderEquipmentLable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.orderPriceLable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.orderDataLable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.orderDataFromLable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.orderDataToLable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.noOrders{
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.orderDebtLable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.orderActionLable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.tableRows{
+    padding-top: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    row-gap: 20px;
+    /* Размещаем карточку по центру */
+    /* Отступ между рядами */
+    margin: 0 auto;
+}
+
+.row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(8, 1fr);
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+}
+
+.orderNumberContainer{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.buttonCancel {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    background-color: rgb(28, 98, 205);
+}
+
+.buttonCancel .cancelButton {
+    border: none;
+    padding: 0px;
+    font-size: 26px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(28, 98, 205);
+}
+
+.cancelButton  :hover {
+    background-color: rgb(16, 54, 111);
+    transition: 0.7s;
+}
+
+.buttonCancel .cancelButtonText {
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.buttonExit {
+    width: 25%;
+    height: 80px;
+    display: block;
+    text-align: center;
+    background-color: rgb(28, 98, 205);
+}
+
+.buttonExit .exitButton {
+    border: none;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(28, 98, 205);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+.buttonExit :hover {
+    background-color: rgb(16, 54, 111);
+    transition: 0.7s;
+}
+
+/* Конец Страница Спортивного инвентаря */
+
+/* Начало стили Футтер */
+.footer {
+    background-color: #DCDCDF;
+}
+
+.contacts {
+    margin-top:50px;
+    float: left;
+    height: 200px;
+    width: 50%;
+    background-color: #DCDCDF;
+}
+
+
+.contacts p {
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    float: right;
+    height: 200px;
+    width: 50%;
+}
+
+.developers {
+    margin-top:50px;
+    float: right;
+    height: 200px;
+    width: 50%;
+    background-color: #DCDCDF;
+}
+
+.developers p {
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    float: right;
+    height: 200px;
+    width: 50%;
+}
+/* Конец стили Футтер */

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/* Начало Страница Регистрация */
+
+/*Стили шапки*/
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    font-size: 48px;
+    font-family: 'Staatliches';
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu {
+    height: 70px;
+    background-color: #DCDCDF;
+}
+
+.left-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 65px;
+}
+
+.left-menu li {
+    text-align: center;
+    float: left;
+    width: 15%;
+}
+
+.left-menu li a {
+    font-weight: bold;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(47, 48, 53);
+}
+
+.right-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 65px;
+}
+
+.right-menu li {
+    text-align: center;
+    float: right;
+    width: 5%;
+}
+
+.right-menu li a {
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(47, 48, 53);
+}
+/*Конец стили шапки*/
+
+/*Начало стили Регистрация*/
+.basePartRegistration {
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+}
+
+.centreColumnRegistration {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 800px;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.orderWrapper{
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 2.7fr 0.4fr; 
+    /* grid-template-rows: repeat(2, 1fr); */
+    width: 100%;
+    height: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    row-gap: 40px;
+    /* Размещаем карточку по центру */
+    /* Отступ между рядами */
+}
+
+.orderInformationWrapper{
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr); 
+    /* grid-template-rows: repeat(2, 1fr); */
+    width: 50%;
+    height: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    /* Размещаем карточку по центру */
+    /* Отступ между рядами */
+}
+
+.orderInformationLable{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rowInformation{
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: repeat(2, 1fr); */
+    width: 100%;
+    height: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    /* Размещаем карточку по центру */
+    /* Отступ между рядами */
+}
+
+.buttonFind {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 80px;
+    height: 80px;
+    background-color: rgb(28, 98, 205);
+}
+
+.buttonFind .findButton {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(28, 98, 205);
+    border: none;
+    font-size: 26px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.buttonFind :hover {
+    background-color: rgb(16, 54, 111);
+    transition: 0.7s;
+}
+
+/* Конец стили Регистрация*/
+
+/* Начало стили Футтер */
+.footer {
+    background-color: #DCDCDF;
+}
+
+.contacts {
+    margin-top:50px;
+    float: left;
+    height: 200px;
+    width: 50%;
+    background-color: #DCDCDF;
+}
+
+
+.contacts p {
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    float: right;
+    height: 200px;
+    width: 50%;
+}
+
+.developers {
+    margin-top:50px;
+    float: right;
+    height: 200px;
+    width: 50%;
+    background-color: #DCDCDF;
+}
+
+.developers p {
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    float: right;
+    height: 200px;
+    width: 50%;
+}
+/* Конец стили Футтер */

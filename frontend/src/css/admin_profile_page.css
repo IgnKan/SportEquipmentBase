@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+.body{
+    height: 800px;
+}
+
+/*Стили шапки*/
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    font-size: 48px;
+    font-family: 'Staatliches';
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu {
+    height: 70px;
+    background-color: #DCDCDF;
+}
+
+.left-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 65px;
+}
+
+.left-menu li {
+    text-align: center;
+    float: left;
+    width: 15%;
+}
+
+.left-menu li a {
+    font-weight: bold;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(47, 48, 53);
+}
+
+.right-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 65px;
+}
+
+.right-menu li {
+    text-align: center;
+    float: right;
+    width: 5%;
+}
+
+.right-menu li a {
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(47, 48, 53);
+}
+/*Конец стили шапки*/
+
+/* Начало Страница Спортивного инвентаря */
+.base-part-sportEquipment-page {
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.centre-column-content {
+    margin-top: 50px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    height: 800px;
+    width: 100%;
+}
+
+.profile-wrapper {
+    margin-top: 50px;
+    display: grid;
+    height: 800px;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.7fr 0fr;
+    /* grid-template-rows: repeat(2, 1fr); */
+    width: 100%;
+    max-width: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    /* Размещаем карточку по центру */
+    /* Отступ между колонками */
+    row-gap: 40px;
+    /* Отступ между рядами */
+    margin: 0 auto;
+}
+
+.information-about-user-lable{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.information-about-user-wrapper{
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* grid-template-rows: repeat(2, 1fr); */
+    width: 25%;
+    max-width: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    /* Размещаем карточку по центру */
+    column-gap: 8px;
+    row-gap: 20px;
+    /* Отступ между рядами */
+    margin: 0 auto;
+}
+
+.full-name-user-lable{
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.full-name-user{
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.email-user-lable{
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.email-user{
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.information-about-orders-wrapper{
+    height: 1080px;
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr 1fr 14fr;
+    /* grid-template-rows: repeat(2, 1fr); */
+    width: 100%;
+    max-width: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    /* Размещаем карточку по центру */
+    column-gap: 8px;
+    /* Отступ между рядами */
+    margin: 0 auto;
+}
+
+.information-about-orders-lable{
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.information-about-orders-table-wrapper{
+    overflow: auto;
+    overflow-x: hidden;
+    height: 100%;
+    width: 80%;
+    max-width: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    /* Размещаем карточку по центру */
+    /* Отступ между рядами */
+    margin: 0 auto;
+}
+
+.order-number-cell{
+    border: 1px solid;
+    border-width: 1px;
+    border-right: 1px solid rgb(205, 205, 205);
+}
+
+.column-lables{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    height: 100%;
+    display: grid;
+    border: 1px solid;
+    border-width: 1px;
+    border-right: 1px solid rgb(205, 205, 205);
+    border-color: rgb(205, 205, 205);
+    background-color: rgb(0, 0, 0, 5%);
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(8, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    width: 80%;
+    max-width: 100%;
+    /* Ширина grid-контейнера */
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    /* Размещаем карточку по центру */
+    /* Отступ между рядами */
+    margin: 0 auto;
+}
+
+.order-number-lable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.order-equipment-lable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.order-price-lable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.order-data-lable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.order-data-from-lable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.order-data-to-lable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.order-debt-lable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.order-action-lable{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+}
+
+.table-rows{
+    padding-top: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    width: 100%;
+    max-width: 100%;
+    /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center;
+    row-gap: 20px;
+    /* Размещаем карточку по центру */
+    /* Отступ между рядами */
+    margin: 0 auto;
+}
+
+.row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(8, 1fr);
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+}
+
+.order-number-container{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.button-exit {
+    width: 25%;
+    height: 80px;
+    display: block;
+    text-align: center;
+    background-color: rgb(28, 98, 205);
+}
+
+.button-exit .exit-button {
+    border: none;
+    padding: 0px;
+    font-size: 26px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(28, 98, 205);
+
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.button-exit :hover {
+    background-color: rgb(16, 54, 111);
+    transition: 0.7s;
+}
+
+/* Конец Страница Спортивного инвентаря */
+
+/* Начало стили Футтер */
+.footer {
+    background-color: #DCDCDF;
+}
+
+.contacts {
+    margin-top:50px;
+    float: left;
+    height: 200px;
+    width: 50%;
+    background-color: #DCDCDF;
+}
+
+
+.contacts p {
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    float: right;
+    height: 200px;
+    width: 50%;
+}
+
+.developers {
+    margin-top:50px;
+    float: right;
+    height: 200px;
+    width: 50%;
+    background-color: #DCDCDF;
+}
+
+.developers p {
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    float: right;
+    height: 200px;
+    width: 50%;
+}
+/* Конец стили Футтер */

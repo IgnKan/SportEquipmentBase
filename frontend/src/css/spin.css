@@ -1,0 +1,7 @@
+.spin{
+    position: relative;
+    left: 45%;
+    top: 45%;
+    align-items: center;
+    justify-content: center;
+}

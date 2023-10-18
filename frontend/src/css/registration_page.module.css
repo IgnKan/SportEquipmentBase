@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/* Начало Страница Регистрация */
+
+/*Стили шапки*/
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    font-size: 48px;
+    font-family: 'Staatliches';
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu {
+    height: 70px;
+    background-color: #DCDCDF;
+}
+
+.left-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 65px;
+}
+
+.left-menu li {
+    text-align: center;
+    float: left;
+    width: 15%;
+}
+
+.left-menu li a {
+    font-weight: bold;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(47, 48, 53);
+}
+
+.right-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 65px;
+}
+
+.right-menu li {
+    text-align: center;
+    float: right;
+    width: 5%;
+}
+
+.right-menu li a {
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(47, 48, 53);
+}
+/*Конец стили шапки*/
+
+/*Начало стили Регистрация*/
+.basePartRegistration {
+    margin-top: 50px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+}
+
+.centreColumnRegistration {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 650px;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.createLabel {
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 60px;
+    padding-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.2;
+    color: #000000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.fullnameBox {
+    margin: auto;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.fullnameBoxLabel {
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    float: left;
+    line-height: 80px;
+    font-size: 24px;
+    height: 80px;
+    width: 25%;
+    text-align: right;
+}
+
+.fullnameBoxField {
+    height: 80px;
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fullnameBoxField input {
+    padding-left: 10px;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    border: none;
+    height: 80px;
+    width: 100%;
+    color: rgb(0, 0, 0, 50%);
+    background-color: rgb(0, 0, 0, 5%);
+}
+
+.accountBox {
+    margin: auto;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.accountBoxLabel {
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    float: left;
+    line-height: 80px;
+    font-size: 24px;
+    height: 80px;
+    width: 25%;
+    text-align: right;
+}
+
+.accountBoxField {
+    height: 80px;
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accountBoxField input {
+    padding-left: 10px;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    border: none;
+    height: 80px;
+    width: 100%;
+    color: rgb(0, 0, 0, 50%);
+    background-color: rgb(0, 0, 0, 5%);
+}
+
+.firstpasswordBox {
+    margin: auto;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.firstpasswordBoxLabel {
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    float: left;
+    line-height: 80px;
+    font-size: 24px;
+    height: 80px;
+    width: 25%;
+    text-align: right;
+}
+
+.firstpasswordBoxField {
+    height: 80px;
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.firstpasswordBoxField input {
+    padding-left: 10px;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    border: none;
+    height: 80px;
+    width: 100%;
+    color: rgb(0, 0, 0, 50%);
+    background-color: rgb(0, 0, 0, 5%);
+}
+
+.loginBoxActionBox{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.loginBoxActionBox a{
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+
+.registrationBoxActionBox {
+    margin: auto;
+    margin-top: 80px;
+    border: none;
+    text-align: center;
+    height: 60px;
+    width: 40%;
+}
+
+.registrationBoxActionBox .createNewUserButton .createNewUserButtonText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.registrationBoxActionBox .createNewUserButton {
+    height: 80px;
+    background-color: rgb(28, 98, 205);
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+
+.createNewUserButton:hover {
+    background-color: rgb(16, 54, 111);
+    transition: 0.7s;
+}
+
+.createNewUserButton:active {
+    border: 1ch;
+    border-color: #000000;
+}
+
+/* Конец стили Регистрация*/
+
+/* Начало стили Футтер */
+.footer {
+    background-color: #DCDCDF;
+}
+
+.contacts {
+    margin-top:50px;
+    float: left;
+    height: 200px;
+    width: 50%;
+    background-color: #DCDCDF;
+}
+
+
+.contacts p {
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    float: right;
+    height: 200px;
+    width: 50%;
+}
+
+.developers {
+    margin-top:50px;
+    float: right;
+    height: 200px;
+    width: 50%;
+    background-color: #DCDCDF;
+}
+
+.developers p {
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    float: right;
+    height: 200px;
+    width: 50%;
+}
+/* Конец стили Футтер */
