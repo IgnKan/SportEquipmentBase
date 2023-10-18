@@ -11,11 +11,6 @@
 - View (отвечает за отображение данных);
 - Controller (отвечает за обработку запросов, поступивших от клиента).
 
-## Команда разработчиков ТП-4.2-1:
-- [Корнилов Илья](https://github.com/iljaKorn) — тимлид, владелец продукта, Frontend-разработчик;
-- [Бабкина Екатерина](https://github.com/Babkina-Ekaterina) — Scrum-мастер, Backend-разработчик;
-- [Кандауров Игнатий](https://github.com/SolidSnakeF141) — Frontend-разработчик.
-
 ## Материалы к проекту:
 ##### Основные ссылки:
 - [Miro](https://miro.com/app/board/uXjVMfsWqvM=/)  
@@ -28,32 +23,7 @@
 - [Тестовые аккаунты для входа](https://docs.google.com/document/d/1QEK4JwCO43XW1t8fDN5eJZqZH0w0T3FRkZOTYmKEgyY/edit?usp=sharing)
 - [Доступ к серверу](https://docs.google.com/document/d/1Pt46DTeUbTOCqLeFdX7braQi40ergEptLHKEM2IIrU8/edit?usp=sharing)
 
-##### Курсовой проект:
-[Курсовой проект.docx](https://github.com/iljaKorn/SportEquipmentRental/blob/main/documents/Курсовой%20проект.docx)  
-[Курсовой проект.pdf](https://github.com/iljaKorn/SportEquipmentRental/blob/main/documents/Курсовой%20проект.pdf)
 
 ##### Техническое задание:
 [Техническое задание.docx](https://github.com/iljaKorn/SportEquipmentRental/blob/main/documents/Техническое%20задание.docx)  
 [Техническое задание.pdf](https://github.com/iljaKorn/SportEquipmentRental/blob/main/documents/Техническое%20задание.pdf)  
-
-##### Презентация к 1 аттестации:
-[Презентация к 1 аттестации](https://github.com/iljaKorn/SportEquipmentRental/blob/main/documents/Презентация%20по%20итогам%201%20этапа.pptx)  
-[Видеопрезентация к 1 аттестации](https://disk.yandex.ru/i/M4w3kLeDoMgYEw)
-
-##### Отчёт по ролям:
-[Отчёт по ролям.docx](https://github.com/iljaKorn/SportEquipmentRental/blob/main/documents/Отчёт%20по%20ролям.docx)  
-[Отчёт по ролям.pdf](https://github.com/iljaKorn/SportEquipmentRental/blob/main/documents/Отчёт%20по%20ролям.pdf)
-
-##### Сопроводительное письмо:
-[Сопроводительное письмо.docx](https://github.com/iljaKorn/SportEquipmentRental/blob/main/documents/Сопроводительное%20письмо.docx)  
-[Сопроводительное письмо.pdf](https://github.com/iljaKorn/SportEquipmentRental/blob/main/documents/Сопроводительное%20письмо.pdf)
-
-##### Итоговая презентация:
-[Итоговая презентация](https://docs.google.com/presentation/d/13X-oEXnfk2f652JuD1npu98BIqT24qJ9ZRZy2Aua9s4/edit?usp=sharing)  
-
-##### Видео:
-[Видео про backend](https://youtu.be/ANb5wlKCnsg)  
-[Видео про frontend](https://youtu.be/P-FrxGexUu4)  
-[Видео с развёртыванием приложения](https://youtu.be/-v1u9Vw1Fns)  
-[Итоговая видеопрезентация](https://youtu.be/P-2c_NeBBGs)  
-[Видео с работой приложения](https://youtu.be/sG3JJIwiAA8)
