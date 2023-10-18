@@ -23,7 +23,3 @@
 - [Тестовые аккаунты для входа](https://docs.google.com/document/d/1QEK4JwCO43XW1t8fDN5eJZqZH0w0T3FRkZOTYmKEgyY/edit?usp=sharing)
 - [Доступ к серверу](https://docs.google.com/document/d/1Pt46DTeUbTOCqLeFdX7braQi40ergEptLHKEM2IIrU8/edit?usp=sharing)
 
-
-##### Техническое задание:
-[Техническое задание.docx](https://github.com/iljaKorn/SportEquipmentRental/blob/main/documents/Техническое%20задание.docx)  
-[Техническое задание.pdf](https://github.com/iljaKorn/SportEquipmentRental/blob/main/documents/Техническое%20задание.pdf)  
